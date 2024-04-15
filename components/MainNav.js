@@ -78,7 +78,7 @@ const MainNav = () => {
                     Search History
                   </NavDropdown.Item>
                 </Link>
-                <NavDropdown.Item onClick={logout}>Logout</NavDropdown.Item>
+                <NavDropdown.Item as="a" href="#" onClick={logout}>Logout</NavDropdown.Item>
               </NavDropdown>
             ) : (
               <>

@@ -13,6 +13,7 @@
 
 
 import { Row, Col, Image } from 'react-bootstrap';
+import validObjectIDList from '../public/data/validObjectIDList.json';
 
 function Home() {
   return (
