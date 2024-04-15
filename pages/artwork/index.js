@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import useSWR from 'swr';
 import { Row, Col, Pagination, Card } from 'react-bootstrap';
-import ArtworkCard from '../../components/ArtworkCard';
-import validObjectIDList from '../../public/data/validObjectIDList';
+import ArtworkCard from '@/components/ArtworkCard';
+import validObjectIDList from '@/public/data/validObjectIDList';
 
 function Artwork() {
   const [artworkList, setArtworkList] = useState(null);
